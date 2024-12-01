@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Contact us</title>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Nova+Cut&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/categories.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav>
+      <div class="logo">
+        <h3><a href="merlin.html" class="logo-name">Decent Collection</a></h3>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="contact.html">ContactUs</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  <!-- navbar -->
+
+    <!-- Main container -->
+    <div class="container">
+        <h1>Get in Touch</h1>
+        <p>Follow Us On</p>
+        <div class="handle-social-link">
+          <a href="https://www.instagram.com/decent_collection_07/profilecard/?igsh=c3ZtcWlyNzIydzNq"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a> 
+          <a href="https://www.threads.net/@decent_collection_07"><i class="fa-brands fa-square-threads"></i></a>
+          <a href="https://x.com/"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+
+      
+        <!-- Contact form section -->
+        <div class="contact-box">
+            <!-- Left side of the form -->
+            <div class="container-left">
+                <h3 id="contactbold">Contact</h3>
+                <!-- Form -->
+                <!-- <form id="contactForm" onsubmit="return validateForm()"> -->
+                    <form action="https://api.web3forms.com/submit" method="post">
+                        
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Full Name</label>
+                            <input type="hidden" name="access_key" value="e0a38abe-390b-4011-b89a-9371423c5cdd">
+                            <input name="fullname" type="text" id="name" placeholder="Enter your Name" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input name="phone" type="text" id="phone" placeholder="+91-127890XXXX" required>
+                        </div>
+                    </div>
+                    
+                    <!-- Input row for Email and Subject -->
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input name="Your-email" type="email" id="email" placeholder="Your-email@gmail.com" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input name="enquiry" type="text" id="subject" placeholder="Inquiry">
+                        </div>                       
+                    </div>
+
+                    <!-- Label for Message textarea -->
+                    <label>Your Message</label>
+                    <textarea rows="10" name="your-msg" id="message" placeholder="Enter your Message" required></textarea>
+                    <button type="submit">SEND MESSAGE</button> <button type="reset">RESET</button>
+                </form>
+            </div>
+            <!-- Right side with contact information -->
+            <div class="container-right">
+                <h3>Info</h3>
+                <!-- Table for contact information -->
+                <table>
+                    <tr>
+                        <td>Email: </td>
+                        <td>decentcollection07@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                        <td>Phone: </td>
+                        <td>+91 8766219512</td>
+                    </tr>
+
+                    <tr>
+                        <td>Address: </td>
+                        <td>Near Radha Krishna Sweet, <br>
+                          New Basti Jodhewal, <br>
+                          Ludhiana - 141007 India</td>
+                    </tr>
+                </table>
+                
+                <!-- Map section -->
+                <div class="map">
+                    <!-- Google Map iframe -->
+                    <!-- <iframe src="https://maps.app.goo.gl/DbRCJBVCBKJaAhEY8?g_st=ac?embed" width="800" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6844.828169005294!2d75.86114123678234!3d30.930997601051157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a836497340c2d%3A0xefa624bcb4204c15!2sBasti%20Jodhewal%2C%20Bal%20Singh%20Nagar%2C%20Ludhiana%2C%20Punjab%20141007!5e0!3m2!1sen!2sin!4v1732985938758!5m2!1sen!2sin" width="800" height="275" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript file -->
+    <script src="./js/contact.js"></script>
+</body>
+</html>
